@@ -18,7 +18,7 @@ def calculator(first_number, second_number, operation='ADD'):
 # Test your function using named notation passing in only the numbers 6 and 4
 # Should return 10
 #
-print('Adding 6 + 4 = ' + str(calculator(first_number=6, second_number=4)))
+print('Adding 6 + 4 = ' + str(calculator(first_number=6, second_number=4, operation='add')))
 
 # Test your function using named notation with the values 6,4, subtract 
 # Should return 2
