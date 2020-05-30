@@ -2,12 +2,14 @@ class Presenter():
 	def __init__(self, name):
 		# Constructor
 		self.name = name
-
-	@property       #getter function
+        
+        #getter function
+	@property
 	def name(self):
 		print('Retrieving name...')
 		return self.__name
-	@name.setter        #setter function
+	#setter function
+        @name.setter
 	def name(self, value):
 		# cool validation here
 		print('Validating name...')
