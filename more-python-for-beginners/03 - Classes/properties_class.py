@@ -4,10 +4,11 @@ class Presenter():
 		self.name = name
         
         #getter function
-	@property
+        @property
 	def name(self):
 		print('Retrieving name...')
 		return self.__name
+
 	#setter function
         @name.setter
 	def name(self, value):
