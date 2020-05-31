@@ -1,6 +1,6 @@
 def print_hello(name: str) -> str:
-    """
-    Greets the user by name
+	"""
+	Greets the user by name
 
 	Parameters:
 		name (str): The name of the user
@@ -8,3 +8,5 @@ def print_hello(name: str) -> str:
 		str: The greeting
 	"""
 	print('Hello, ' + name)
+
+print_hello('Bob')
