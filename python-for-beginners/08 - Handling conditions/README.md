@@ -16,6 +16,6 @@ else:
 - < less than
 - < greater than
 - == is equal to
-- \>= greater than or equal to
+- >= greater than or equal to
 - <= less than or equal to
 - != not equal to
