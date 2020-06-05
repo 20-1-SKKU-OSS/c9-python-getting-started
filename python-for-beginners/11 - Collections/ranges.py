@@ -1,6 +1,8 @@
 names = ['Susan', 'Christopher', 'Bill']
-presenters = names[0:2] # Get the first two items
-# Starting index and number of items to retrieve
+
+# Starting index and the index after the last item
+# ['Susan', 'Christopher']
+presenters = names[0:2] 
 
 print(names)
 print(presenters)
