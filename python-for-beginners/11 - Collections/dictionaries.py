@@ -1,7 +1,7 @@
 person = {'first': 'Christopher'}
 
 person['last'] = 'Harrison'
-# person = {'first': 'Christopher', 'last': 'Harrison'}
+# person = {'last': 'Harrison', 'first': 'Christopher'}
 
 print(person)
 print(person['first'])
