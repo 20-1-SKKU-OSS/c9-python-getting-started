@@ -1,8 +1,8 @@
-#Method or sorting alphabetically
+# Method for sorting alphabetically
 def sorter_alphabetically(item):
     return item['name']
 
-#method of sorting by length
+# Method for sorting by length (in ascending order)
 def sorter_by_length(item):
 	return len(item['name'])
 
@@ -11,10 +11,10 @@ presenters = [
     {'name': 'Christopher', 'age': 47}
 ]
 
-#Sort alphabetically
+# Sort alphabetically
 presenters.sort(key=sorter_alphabetically)
 print(presenters)
 
-#Sort by length of name(shortest to longest)
+# Sort by length of name(shortest to longest)
 presenters.sort(key=sorter_by_length)
 print(presenters)
