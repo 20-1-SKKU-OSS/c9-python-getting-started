@@ -14,7 +14,7 @@ else:
 [Comparison operators](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
 - < less than
-- \> greater than             # \(quote grammar) is added problem related to markdown grammar escape
+- \> greater than            
 - == is equal to
 - <= less than or equal to
 - \>= greater than or equal to
