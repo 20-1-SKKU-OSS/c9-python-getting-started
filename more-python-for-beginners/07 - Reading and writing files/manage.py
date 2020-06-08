@@ -1,7 +1,7 @@
 # Open manage.txt file to write text
 stream = open('manage.txt', 'wt')
 
-# Write the word 'demo' to the file stream
+# Write the word 'demo!' to the file stream
 stream.write('demo!')
 
 # Move back to the start of the file stream
