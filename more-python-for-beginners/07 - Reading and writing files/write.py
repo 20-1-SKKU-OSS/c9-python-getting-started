@@ -3,14 +3,19 @@ stream = open('output.txt', 'wt')
 
 print('\nCan I write to this file? ' + str(stream.writable()) + '\n')
 
-stream.write('H') # Write a single string 
-stream.writelines(['ello',' ','world']) # Write one or more strings
-stream.write('\n') # Write a new line
+# Write a single string 
+stream.write('H') 
+# Write one or more strings
+stream.writelines(['ello',' ','world']) 
+# Write a new line
+stream.write('\n') 
 
 names = ['Susan','Christopher']
 stream.writelines(names)
 
 # Here's a neat trick to insert a new line between items in the list
-stream.write('\n')  # Write a new line
-stream.writelines('\n'.join(names)) 
-stream.close() #Flush stream and close
+# Write a new line
+stream.write('\n')  
+stream.writelines('\n'.join(names))
+# Flush stream and close
+stream.close() 
