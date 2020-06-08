@@ -1,4 +1,4 @@
-#Calculate the tax
+# Calculate the tax
 # Anything purchased for more than $1.00 is charged a 7% tax
 price = input('how much did you pay? ')
 
