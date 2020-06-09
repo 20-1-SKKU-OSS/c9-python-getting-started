@@ -12,7 +12,7 @@
 # Your skills are growing, it's time to start trying to figure things out on your own
 # based on documentation. You have already called one function of the Computer Vision Service
 # Now try calling another
-# Instead of calling the analyzing method of the service, try calling the OCR method 
+# Instead of calling the analyze method of the service, try calling the OCR method 
 # Here is some helpful documentation
 # https://docs.microsoft.com/azure/cognitive-services/Computer-vision/concept-recognizing-text#ocr-optical-character-recognition-api
 # https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fc
