@@ -1,4 +1,9 @@
 names = ['Christopher', 'Susan']
-print(len(names)) # Get the number of items
-names.insert(0, 'Bill') # Insert before index
+
+# Get the number of items
+print(len(names))
+
+# Insert before index
+names.insert(0, 'Bill')
+
 print(names)

@@ -1,10 +1,10 @@
-# Sort alphabetically
 presenters = [
     {'name':'Susan', 'age':50},
     {'name':'Christopher', 'age':47}
 ]
 
-presenters.sort(key=lambda item:item['name'])
+# Sort alphabetically
+presenters.sort(key=lambda item: item['name'])
 print('-- alphabetically --')
 print(presenters)
 

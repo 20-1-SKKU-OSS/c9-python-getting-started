@@ -3,7 +3,7 @@
 first_num = 6
 second_num = 2
 
-# You can peform a variety of math operations on numeric values
+# You can perform a variety of math operations on numeric values
 print('addition')
 print(first_num + second_num)
 print('subtraction')

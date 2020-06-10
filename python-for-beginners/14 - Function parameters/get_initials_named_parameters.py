@@ -11,7 +11,7 @@ def get_initial(name, force_uppercase):
         initial = name[0:1]
     return initial
 
-# Ask for someone's name and return the initial
+# Ask for someone's name and return the initials
 first_name = input('Enter your first name: ')
 
 # Call get_initial to retrieve first letter of name

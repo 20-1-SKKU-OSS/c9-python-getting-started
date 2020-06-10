@@ -1,4 +1,4 @@
-# Each print statements starts on a new line
+# Each print statement starts on a new line
 print('Hello world')
 
 # If you pass nothing to the print statement you get a blank line
