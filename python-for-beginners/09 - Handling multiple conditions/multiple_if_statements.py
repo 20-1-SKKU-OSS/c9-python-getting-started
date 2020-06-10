@@ -1,4 +1,3 @@
-
 province = input("What province do you live in? ")
 tax = 0
 
