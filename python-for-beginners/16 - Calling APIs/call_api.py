@@ -20,10 +20,12 @@ vision_service_address = "https://canadacentral.api.cognitive.microsoft.com/visi
 # Add the name of the function you want to call to the address
 address = vision_service_address + "analyze"
 
-# According to the documentation for the analyze image function, 
-# there are three optional parameters: language, details & visualFeatures
-parameters  = {'visualFeatures':'Description,Color',
-               'language':'en'}
+# According to the documentation for the analyze image function 
+# There are three optional parameters: language, details & visualFeatures
+parameters  = {
+    'visualFeatures':'Description,Color',
+    'language':'en'
+}
 
 # Open the image file to get a file object containing the image to analyze
 image_path = "./TestImages/PolarBear.jpg"
@@ -32,8 +34,10 @@ image_data = open(image_path, "rb").read()
 # According to the documentation for the analyze image function,
 # we need to specify the subscription key and the content type
 # in the HTTP header. Content-Type is application/octet-stream when you pass in a image directly
-headers    = {'Content-Type': 'application/octet-stream',
-              'Ocp-Apim-Subscription-Key': SUBSCRIPTION_KEY}
+headers    = {
+    'Content-Type':'application/octet-stream',
+    'Ocp-Apim-Subscription-Key':SUBSCRIPTION_KEY
+}
 
 # According to the documentation for the analyze image function,
 # we use HTTP POST to call this function

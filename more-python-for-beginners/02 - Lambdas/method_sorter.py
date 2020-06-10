@@ -7,8 +7,8 @@ def sorter_by_length(item):
 	return len(item['name'])
 
 presenters = [
-    {'name': 'Susan', 'age': 50},
-    {'name': 'Christopher', 'age': 47}
+    {'name':'Susan', 'age':50},
+    {'name':'Christopher', 'age':47}
 ]
 
 # Sort alphabetically
