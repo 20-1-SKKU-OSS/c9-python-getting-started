@@ -13,7 +13,7 @@ async def main():
     # Start the timer
     start_time = default_timer()
 
-    # Creating a single session
+    # Create a single session
     async with aiohttp.ClientSession() as session:
         # Setup our tasks and get them running
         two_task = asyncio.create_task(load_data(session, 2))
