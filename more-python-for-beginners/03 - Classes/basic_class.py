@@ -3,7 +3,7 @@ class Presenter():
 		# Constructor
 		self.name = name
 	def say_hello(self):
-		# method
+		# Method
 		print('Hello, ' + self.name)
 
 presenter = Presenter('Chris')
