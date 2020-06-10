@@ -3,16 +3,16 @@ class Presenter():
         # Constructor
         self.name = name
         
-        #getter function
+        # Getter function
         @property
         def name(self):
             print('Retrieving name...')
             return self.__name
         
-        #setter function
+        # Setter function
         @name.setter
         def name(self, value):
-            # cool validation here
+            # Cool validation here
             print('Validating name...')
             self.__name = value
 

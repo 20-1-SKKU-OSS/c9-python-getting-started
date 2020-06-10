@@ -1,9 +1,8 @@
 try:
-	stream = open('output.txt', 'wt')
-	stream.write('Lorem ipsum dolar')
+    stream = open('output.txt', 'wt')
+    stream.write('Lorem ipsum dolar')
 finally:
-	# THIS IS REALLY IMPORTANT!!
-	stream.close() 
+    stream.close() # THIS IS REALLY IMPORTANT!!
 
-# With open('output.txt', 'wt') as stream:
-# 	stream.write('Lorem ipsum dolar')
+# with open('output.txt', 'wt') as stream:
+#     stream.write('Lorem ipsum dolar')
