@@ -9,13 +9,13 @@ import requests
 # by the web service
 import json
 
-# We need the address of our Computer vision service
+# We need the address of our Computer Vision Service
 vision_service_address = "https://canadacentral.api.cognitive.microsoft.com/vision/v2.0/"
 # Add the name of the function we want to call to the address
 address = vision_service_address + "analyze"
 
-# According to the documentation for the analyze image function 
-# There are three optional parameters: language, details & visualFeatures
+# According to the documentation for the analyze image function, 
+# there are three optional parameters: language, details & visualFeatures
 parameters  = {'visualFeatures':'Description,Color',
                'language':'en'}
 
@@ -26,13 +26,13 @@ subscription_key = "cf229a23c3054905b5a8ad512edfa9dd"
 image_path = "./TestImages/PolarBear.jpg"
 image_data = open(image_path, 'rb').read()
 
-# According to the documentation for the analyze image function
+# According to the documentation for the analyze image function,
 # we need to specify the subscription key and the content type
 # in the HTTP header. Content-Type is application/octet-stream when you pass in a image directly
 headers    = {'Content-Type': 'application/octet-stream',
               'Ocp-Apim-Subscription-Key': subscription_key}
 
-# According to the documentation for the analyze image function
+# According to the documentation for the analyze image function,
 # we use HTTP POST to call this function
 response = requests.post(address, headers=headers, params=parameters, data=image_data)
 
